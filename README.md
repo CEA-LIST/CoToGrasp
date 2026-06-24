@@ -69,12 +69,12 @@ If you plan to physically validate the synthesized grasps in simulation, you mus
 ## 📂 Setup and Data
 
 ### 1. Download Data and Models
-- **Datasets & Objects:** Download the file [COTOGRASP_DATA]() containing all robots data and objects.
-- **Model Checkpoints:** Download the pre-trained [weights]() for the Shadow Hand and Allegro Hand.
+- **Datasets & Objects:** Download the file [COTOGRASP_DATA](https://github.com/CEA-LIST/CoToGrasp/releases/tag/v1.0) containing all robots data and objects.
+- **Model Checkpoints:** Download the pre-trained [weights](https://github.com/CEA-LIST/CoToGrasp/releases/tag/v1.0) for the Shadow Hand and Allegro Hand.
 
 ### 2. Organize Directories
 
-Extract the downloaded files. Your directory tree should strictly follow this structure:
+Extract the files `ckpt_allegro.zip`, `ckpt_shadowhand.zip` and `COTOGRASP_DATA.zip`. Your directory tree should strictly follow this structure:
 ```bash
 # Model Checkpoints
 COTOGRASP                                           # Main folder
@@ -88,15 +88,15 @@ COTOGRASP                                           # Main folder
 COTOGRASP_DATA
 ├── handprints
 ├── pointclouds
-│   ├── dexgraspnet
-│   ├── multidex
-│   │   ├── contactdb
-│   │   └── ycb
+    ├── dexgraspnet
+    ├── multidex
+        ├── contactdb
+        └── ycb
 ├── urdf
-│   ├── objects
-│   │   ├── dexgraspnet
-│   │   ├── multidex
-│   └── robot
+    ├── objects
+        ├── dexgraspnet
+        ├── multidex
+    └── robot
 └── workspaces
 ```
 
