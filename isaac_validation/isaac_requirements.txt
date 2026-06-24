@@ -1,0 +1,7 @@
+numpy==1.24.4
+pytorch_kinematics==0.7.4
+urdf-parser-py==0.0.4
+tabulate==0.9.0
+tqdm==4.66.5
+termcolor==2.4.0
+six==1.16.0

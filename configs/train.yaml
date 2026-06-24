@@ -1,0 +1,56 @@
+robot_name: 'robot'   # Set in code
+fixed_rt: True        # Set in code
+ 
+# GLOBAL
+device: 'cuda'
+batch_size: 32            # ~80GB of GPU memory for batch_size=32 and bps_pts=8192
+batch_accumulation: 1
+num_workers: 15
+n_epochs: 50
+learning_rate: 1e-5
+seed: 42
+
+# DATA
+normalize_joint_values: True
+
+# BETA (KLD Loss)
+beta_fixed: 0.01
+# Useless if beta_fixed is set: mitigate the KL vanishing problem.
+beta_range: [1e-8, 1e-4]
+beta_cycle_start: 50
+beta_cycle_length: 50
+sigmoid_scale: 10.0
+is_cyclique: False
+
+# MODEL
+latent_size: 64
+latent_hidden_dim: 512
+
+# BPS
+bps_pts: 8192       # 2048 / 4096 / 8192 / 16384 / 32768
+
+# PointWise Encoder: DGCNN
+dgcnn_knn: 16
+dgcnn_layers_size: [12, 64, 64, 128, 256, 512]
+dgcnn_features_size: 1024
+
+# X Encoder
+x_encoder_hidden_layers: [128]
+x_features_size: 64
+
+# Type Embedding
+num_types: 21
+type_embedding_size: 64
+
+# Transformer
+transformer_n_blocks: 4
+transformer_n_heads: 8
+transformer_dropout: 0.0
+
+# Pooling
+pooling_n_heads: 8
+pooling_size: 1024
+
+# Decoder
+num_zones: 23   # zones + 1 for 0
+
