@@ -7,7 +7,7 @@
 #### <sup>1</sup>Université Paris-Saclay, CEA-List &nbsp;&nbsp; <sup>2</sup>École Centrale de Lyon, CNRS, LIRIS, UMR5205, Institut Universitaire de France (IUF)
 #### 19th European Conference on Computer Vision (ECCV 2026)
 
-### [**Project Page**](https://cea-list.github.io/cotograspweb/) &nbsp;&nbsp;|&nbsp;&nbsp; [**arXiv**](https://arxiv.org/abs/arxiv_paper_id) &nbsp;&nbsp;|&nbsp;&nbsp; [**BibTeX**](#-citation--contact)
+### [**Project Page**](https://cea-list.github.io/cotograspweb/) &nbsp;&nbsp;|&nbsp;&nbsp; [**arXiv**](https://arxiv.org/abs/2608.19776) &nbsp;&nbsp;|&nbsp;&nbsp; [**BibTeX**](#-citation--contact)
 </div>
 
 <div align="center">
